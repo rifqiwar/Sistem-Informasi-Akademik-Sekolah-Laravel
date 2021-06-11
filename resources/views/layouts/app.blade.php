@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Sistem Informasi Akademik Sekolah</title>
+  <title>Siakad Madin MTA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
   <link rel="shrotcut icon" href="{{ asset('img/favicon.ico') }}">
 </head>
-<body class="hold-transition login-page" style="background-image: url('{{ asset("img/wallup.jpg") }}'); background-size: cover; background-attachment: fixed;">
+{{-- <body class="hold-transition login-page" style="background-image: url('{{ asset("img/wallup.jpg") }}'); background-size: cover; background-attachment: fixed;"> --}}
+<body class="hold-transition login-page" style="background-color: rgb(43, 165, 226); background-size: cover; background-attachment: fixed;">
   <div class="login-box">
     <div class="login-logo">
-      <img src="{{ asset('img/logosiakad.png') }}" width="100%" alt="">
+      <br style="margin-top:50px">
+      <img src="{{ asset('img/logosiakad.png') }}" width="50%" alt="">
     </div>
 
     <div class="login-logo" style="color: white;">
@@ -26,9 +28,9 @@
     </div>
 
     <footer style="color: white;">
-      <marquee>
-          <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &diams; <a href="http://smkn1jenpo.sch.id/" style="color: white;">SMK Negeri 1 Jenangan Ponorogo</a>. </strong>
-      </marquee>
+    
+          <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &diams; <a href="http://madinmta.com/" style="color: white;">Madin MTA Yogyakarta</a>. </strong>
+      
     </footer>
   </div>
 
@@ -92,7 +94,7 @@
 
 @error('id_card')
   <script>
-    toastr.error("Maaf User ini tidak terdaftar sebagai Guru SMKN 1 Jenangan Ponorogo!");
+    toastr.error("Maaf User ini tidak terdaftar sebagai Guru madin MTA Yogyakarta!");
   </script>
 @enderror
 @error('guru')
@@ -102,7 +104,7 @@
 @enderror
 @error('no_induk')
   <script>
-    toastr.error("Maaf User ini tidak terdaftar sebagai Siswa SMKN 1 Jenangan Ponorogo!");
+    toastr.error("Maaf User ini tidak terdaftar sebagai Siswa madin MTA Yogyakarta!");
   </script>
 @enderror
 @error('siswa')

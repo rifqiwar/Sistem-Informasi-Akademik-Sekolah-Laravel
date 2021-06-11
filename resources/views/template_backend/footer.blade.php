@@ -1,7 +1,7 @@
 <footer class="main-footer">
-        <marquee>
-            <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &diams; <a href="http://smkn1jenpo.sch.id/">SMK Negeri 1 Jenangan Ponorogo</a>. </strong>
-        </marquee>
+        
+            <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &diams; <a href="http://madinmta.com/">Madin MTA Yogyakarta</a>. </strong>
+       
     </footer>
 
     <!-- Control Sidebar -->
