@@ -164,7 +164,6 @@
                                 <li><i class="far fa-circle" style="color: #d4c148"></i> I'dad</li>
                                 <li><i class="far fa-circle" style="color: #ba6906"></i> Tahsin</li>
                                 <li><i class="far fa-circle" style="color: #ff990a"></i> Bahasa Arab</li>
-                                <li><i class="far fa-circle" style="color: #00a352"></i> Otomasi Industri</li>
                                 <li><i class="far fa-circle" style="color: #2cabe6"></i> Khitobah</li>
                                 <li><i class="far fa-circle" style="color: #999999"></i> Intensif Tahfidz</li>
                             </ul>
@@ -232,14 +231,19 @@
             var pieChartCanvasPaket = $('#pieChartPaket').get(0).getContext('2d')
             var pieDataPaket        = {
                 labels: [
-                    'Bisnis kontruksi dan Properti',
-                    'Desain Permodelan dan Informasi Bangunan',
-                    'Elektronika Industri',
-                    'Otomasi Industri',
-                    'Teknik dan Bisnis Sepeda Motor',
-                    'Rekayasa Perangkat Lunak',
-                    'Teknik Pemesinan',
-                    'Teknik Pengelasan',
+                    // 'Bisnis kontruksi dan Properti',
+                    // 'Desain Permodelan dan Informasi Bangunan',
+                    // 'Elektronika Industri',
+                    // 'Otomasi Industri',
+                    // 'Teknik dan Bisnis Sepeda Motor',
+                    // 'Rekayasa Perangkat Lunak',
+                    // 'Teknik Pemesinan',
+                    // 'Teknik Pengelasan',
+                    'I dad',
+                    'Tahsin',
+                    'Bahasa Arab',
+                    'Khitobah',
+                    'Intensif Tahsin',
                 ],
                 datasets: [
                     {
